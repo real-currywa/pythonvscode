@@ -127,110 +127,112 @@ if menu == 'Write Exam':
 
 
     if st.button('Submit Your Quiz'):
-        if name == None:
-            st.error('Enter your name please')
-        if q1 == 'Choose':
-            st.error('Question 1 not yet answered')
-        elif q1 == "A) Pumping blood":
-            points +=1
-        if q2 == 'Choose':
-            st.error('Question 2 not yet answered')
-        elif q2 == "B) Diseases like measles and flu":
-            points +=1
-        if q3 == 'Choose':
-            st.error('Question 3 not yet answered')
-        elif q3 == "B) To prevent getting sick":
-            points +=1    
-        if q4 == 'Choose':
-            st.error('Question 4 not yet answered')
-        elif q4 == "B) Tell an adult and rest":
-            points +=1    
-        if q5 == 'Choose':
-            st.error('Question 5 not yet answered')
-        elif q5 == "B) Help people stay healthy":
-            points +=1
-        if q6 == 'Choose':
-            st.error('Question 6 not yet answered')
-        elif q6 == "B) Fruits and vegetable":
-            points +=1
-        if q7 == 'Choose':
-            st.error('Question 7 not yet answered')
-        elif q7 == "B) Your body reacts badly to it":
-            points +=1    
-        if q8 == 'Choose':
-            st.error('Question 8 not yet answered')
-        elif q8 == "B) Wash it and put a bandage on it":
-            points +=1    
-        if q9 == 'Choose':
-            st.error('Question 9 not yet answered')
-        elif q9 == "B) It gives you energy for school":
-            points +=1
-        if q10 == 'Choose':
-            st.error('Question 10 not yet answered')
-        elif q10 == "B) Drinking milk or eating dairy":
-            points +=1
-        if q11 == 'Choose':
-            st.error('Question 11 not yet answered')
-        elif q11 == "B) To give immediate care in emergencies":
-            points +=1    
-        if q12 == 'Choose':
-            st.error('Question 12 not yet answered')
-        elif q12 == "B) Drinking warm fluids:":
-            points +=1    
-        if q13 == 'Choose':
-            st.error('Question 13 not yet answered')
-        elif q13 == "A) Runny nose":
-            points +=1
-        if q14 == 'Choose':
-            st.error('Question 14 not yet answered')
-        elif q14 == "B) To prevent spreading germs":
-            points +=1
-        if q15 == 'Choose':
-            st.error('Question 15 not yet answered')
-        elif q15 == "B) Playing sports or riding a bike":
-            points +=1    
-        if q16 == 'Choose':
-            st.error('Question 16 not yet answered')
-        elif q16 == "B) Your teeth":
-            points +=1    
-        if q17 == 'Choose':
-            st.error('Question 17 not yet answered')
-        elif q17 == "B) Sit down and tell an adult":
-            points +=1
-        if q18 == 'Choose':
-            st.error('Question 18 not yet answered')
-        elif q18 == "B) To help you breathe":
-            points +=1
-        if q19 == 'Choose':
-            st.error('Question 19 not yet answered')
-        elif q19 == "A) Washing hands frequently":
-            points +=1    
-        if q20 == 'Choose':
-            st.error('Question 20 not yet answered')
-        elif q20 == "B) They might need rest or water":
-            points +=1    
+        if name:
+            if q1 == 'Choose':
+                st.error('Question 1 not yet answered')
+            elif q1 == "A) Pumping blood":
+                points +=1
+            if q2 == 'Choose':
+                st.error('Question 2 not yet answered')
+            elif q2 == "B) Diseases like measles and flu":
+                points +=1
+            if q3 == 'Choose':
+                st.error('Question 3 not yet answered')
+            elif q3 == "B) To prevent getting sick":
+                points +=1    
+            if q4 == 'Choose':
+                st.error('Question 4 not yet answered')
+            elif q4 == "B) Tell an adult and rest":
+                points +=1    
+            if q5 == 'Choose':
+                st.error('Question 5 not yet answered')
+            elif q5 == "B) Help people stay healthy":
+                points +=1
+            if q6 == 'Choose':
+                st.error('Question 6 not yet answered')
+            elif q6 == "B) Fruits and vegetable":
+                points +=1
+            if q7 == 'Choose':
+                st.error('Question 7 not yet answered')
+            elif q7 == "B) Your body reacts badly to it":
+                points +=1    
+            if q8 == 'Choose':
+                st.error('Question 8 not yet answered')
+            elif q8 == "B) Wash it and put a bandage on it":
+                points +=1    
+            if q9 == 'Choose':
+                st.error('Question 9 not yet answered')
+            elif q9 == "B) It gives you energy for school":
+                points +=1
+            if q10 == 'Choose':
+                st.error('Question 10 not yet answered')
+            elif q10 == "B) Drinking milk or eating dairy":
+                points +=1
+            if q11 == 'Choose':
+                st.error('Question 11 not yet answered')
+            elif q11 == "B) To give immediate care in emergencies":
+                points +=1    
+            if q12 == 'Choose':
+                st.error('Question 12 not yet answered')
+            elif q12 == "B) Drinking warm fluids:":
+                points +=1    
+            if q13 == 'Choose':
+                st.error('Question 13 not yet answered')
+            elif q13 == "A) Runny nose":
+                points +=1
+            if q14 == 'Choose':
+                st.error('Question 14 not yet answered')
+            elif q14 == "B) To prevent spreading germs":
+                points +=1
+            if q15 == 'Choose':
+                st.error('Question 15 not yet answered')
+            elif q15 == "B) Playing sports or riding a bike":
+                points +=1    
+            if q16 == 'Choose':
+                st.error('Question 16 not yet answered')
+            elif q16 == "B) Your teeth":
+                points +=1    
+            if q17 == 'Choose':
+                st.error('Question 17 not yet answered')
+            elif q17 == "B) Sit down and tell an adult":
+                points +=1
+            if q18 == 'Choose':
+                st.error('Question 18 not yet answered')
+            elif q18 == "B) To help you breathe":
+                points +=1
+            if q19 == 'Choose':
+                st.error('Question 19 not yet answered')
+            elif q19 == "A) Washing hands frequently":
+                points +=1    
+            if q20 == 'Choose':
+                st.error('Question 20 not yet answered')
+            elif q20 == "B) They might need rest or water":
+                points +=1    
 
-        #grade system
-        if points <=9:
-            st.error('You have failed this test.')
-        elif points == 10:
-            st.warning('You barely passed this test')
-        elif points > 10 and points <= 15:
-            st.success('You did well!!!')
-        elif points >15 and points <=20:
-            st.success('Good Job!! You scored in the top 20%')
-        if points:
-            st.success(f'You scored aproximatelly {points} points.')
+            #grade system
+            if points <=9:
+                st.error('You have failed this test.')
+            elif points == 10:
+                st.warning('You barely passed this test')
+            elif points > 10 and points <= 15:
+                st.success('You did well!!!')
+            elif points >15 and points <=20:
+                st.success('Good Job!! You scored in the top 20%')
+            if points:
+                st.success(f'You scored aproximatelly {points} points.')
 
 
-        #saving
-        data = {'Name' : [name],'Points' : [points]}
-        st.table(data)
+            #saving
+    
+            data = {'Name' : [name],'Points' : [points]}
+            st.table(data)
 
-        table = pd.DataFrame(data)
-        jointable = pd.concat([dbf,table],ignore_index=True)
-        jointable.to_csv('medical.csv',index=False)
-        st.success("Information Saved!")
+            table = pd.DataFrame(data)
+            jointable = pd.concat([dbf,table],ignore_index=True)
+            jointable.to_csv('medical.csv',index=False)
+            st.success("Information Saved!")
+        else:
+            st.error('I need your name before I can save your score')
         
 
 if menu == 'View Results':
