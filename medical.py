@@ -174,7 +174,7 @@ if menu == 'Write Exam':
                 points +=1    
             if q12 == 'Choose':
                 st.error('Question 12 not yet answered')
-            elif q12 == "B) Drinking warm fluids:":
+            elif q12 == "B) Drinking warm fluids":
                 points +=1    
             if q13 == 'Choose':
                 st.error('Question 13 not yet answered')
