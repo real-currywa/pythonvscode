@@ -87,4 +87,4 @@ if menu =='Input Scores':
             st.success("Information Saved!")
 
         else:
-            st.error('Enter student name please')
+            st.error('Enter student name please')4m
