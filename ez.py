@@ -5,6 +5,6 @@ time = st.number_input('How much time did it take for you to complete the race?'
 
 if st.button('submit'):
     if time < 30:
-        print(f'Well done {name} you ran very fast')
+        st.write(f'Well done {name} you ran very fast')
     else:
-        print(f'That was too slow {name} keep training and run faster.')
+        st.warning(f'That was too slow {name} keep training and run faster.')
